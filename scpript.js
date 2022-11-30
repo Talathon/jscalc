@@ -1,0 +1,32 @@
+let SumOne = prompt("введите сумму+" , 0);
+let SumTwo = prompt("введите сумму+" , 0);
+let Sum1 = parseInt(SumOne);
+let Sum2 = parseInt(SumTwo);
+let SumResult = Sum1 + Sum2;
+alert("Ответ:" + SumResult)
+
+
+let mOne = prompt("введите сумму-" , 0);
+let mTwo = prompt("введите сумму-" , 0);
+let m1 = parseInt(mOne);
+let m2 = parseInt(mTwo);
+let mResult = m1 - m2;
+alert("Ответ:" + mResult)
+
+
+let dOne = prompt("введите сумму/" , 0);
+let dTwo = prompt("введите сумму/" , 0);
+let d1 = parseInt(dOne);
+let d2 = parseInt(dTwo);
+let dResult = d1 / d2;
+alert("Ответ:" + dResult)
+
+
+let muOne = prompt("введите сумму*" , 0);
+let muTwo = prompt("введите сумму*" , 0);
+let mu1 = parseInt(muOne);
+let mu2 = parseInt(muTwo);
+let muResult = mu1 * mu2;
+alert("Ответ:" + muResult)
+
+
